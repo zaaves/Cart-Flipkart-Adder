@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.owais {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bg-owais{
+  background-color: #3A5666;
+}
+
+#bg-img{
+  background-image: url(./assets/bg-img1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body{
+  background-color: #6B7280;
+}
+
+
+@media (max-width: 425px) {
+  #bg-img{
+    background-image: none;
+  }
+  #sos{
+    background-color: #6B7280;
+  }
+  #sos{
+    gap: 73px;
+    padding: 41px;
+    justify-content: center;
+  }
+  #mod{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: aliceblue;
+    justify-content: space-around;
+    padding: 20px 10px;
+  }
+}
+
